@@ -1,0 +1,23 @@
+name: StaffuUtils
+version: ${project.version}
+main: me.georgeawp.staffutils.StaffUtils
+api-version: 1.13
+authors: [ GeorgeAWP ]
+description: A simple plguin which gives your staff members access to useful tools and utilities.
+
+commands:
+  staffchat:
+    description: The command to use the staffchat
+    usage: /<command>
+    permission: staffutils.staffchat.usestaffchat || staffutils.staffchat.view
+    aliases:
+      - sc
+      - schat
+
+  staffchattoggle:
+    description: The command to toggle the staffchat on/off
+    usage: /<command>
+    permission: staffutils.staffchat.toggle
+    aliases:
+      - sctoggle
+      - schattoggle

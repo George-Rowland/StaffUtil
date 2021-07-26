@@ -1,0 +1,11 @@
+commands:
+  staffchat:
+    nopermission: "&f[&6StaffChat&f] &7Sorry, you do not have permission to use this command (staffutils.staffchat.usestaffchat)"
+    correctusage: "&f[&6StaffChat&f] &7Usage: /staffchat [message]"
+    prefix: "&f[&6StaffChat&f] " #Leave space if you want a space between the prefix and playername
+
+  staffchattoggle:
+    nopermission: "&f[&6StaffChat&f] &7Sorry, you do not have permission to use this command (staffutils.staffchat.toggle)"
+    on: "&f[&6StaffChat&f] &7Has been toggled &aon"
+    off: "&f[&6StaffChat&f] &7Has been toggled &coff &7for:"
+    toggledtime: 30 #how long the staffchat will be disabled for in minutes
